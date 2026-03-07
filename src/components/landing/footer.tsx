@@ -37,7 +37,10 @@ export default function Footer() {
 
 					<div className="flex flex-col items-center sm:items-end gap-4">
 						<p className="text-xs font-mono text-muted-foreground text-center sm:text-right">
-							Powered by Cloudflare Edge
+							part of{" "}
+							<Link href="https://unstory.app/" className="underline hover:text-foreground transition-colors">
+								Unstory
+							</Link>
 							<br />
 							© {new Date().getFullYear()} FormGuard
 						</p>
