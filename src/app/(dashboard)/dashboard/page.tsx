@@ -30,8 +30,38 @@ export default async function DashboardPage() {
 	const userForms = await getUserForms(dbUser.id);
 	const totalSubmissions = userForms.reduce((sum, f) => sum + f.submissions, 0);
 
+	const offerEndDate = new Date("2026-03-14T23:59:59Z");
+	const isExpired = new Date() > offerEndDate;
+
 	return (
 		<div className="p-6 md:p-10 max-w-7xl mx-auto w-full">
+			{/* Launch Offer Banner */}
+			{dbUser.plan === "free" && !isExpired && (
+				<div className="mb-10 rounded-3xl bg-linear-to-r from-primary/10 via-primary/5 to-transparent border border-primary/20 p-5 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 overflow-hidden relative group shadow-sm">
+					<div className="absolute -right-8 -top-8 w-32 h-32 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors" />
+					<div className="flex items-center gap-6 relative z-10">
+						<div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center shadow-xl shadow-primary/25 rotate-3 group-hover:rotate-0 transition-transform duration-300">
+							<Sparkles className="w-8 h-8 text-primary-foreground" />
+						</div>
+						<div>
+							<h3 className="text-lg font-black tracking-tight text-foreground flex items-center gap-2">
+								Launch Offer: 1 Month of Pro for FREE!
+								<Badge variant="secondary" className="bg-primary/20 text-primary border-none text-[10px] h-4 px-1.5 font-black uppercase tracking-widest">Limited</Badge>
+							</h3>
+							<p className="text-sm text-muted-foreground mt-1 leading-relaxed max-w-md">
+								Unlock 10 forms, 5k submissions, and full <b>AI Insights</b>. No card required. Offer ends March 14, 2026.
+							</p>
+						</div>
+					</div>
+					<Button asChild size="lg" className="rounded-full px-8 h-12 shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 relative z-10 font-bold bg-primary text-primary-foreground border-none">
+						<Link href="/dashboard/offer">
+							Claim My Free Month
+							<ChevronRight className="w-4 h-4 ml-2" />
+						</Link>
+					</Button>
+				</div>
+			)}
+
 			{/* Header */}
 			<div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-10">
 				<div>

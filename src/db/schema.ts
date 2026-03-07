@@ -19,6 +19,7 @@ export const users = pgTable("users", {
 	email: text("email").notNull(),
 	displayName: text("display_name"),
 	plan: planEnum("plan").notNull().default("free"),
+	planExpiresAt: timestamp("plan_expires_at", { withTimezone: true }),
 	createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 

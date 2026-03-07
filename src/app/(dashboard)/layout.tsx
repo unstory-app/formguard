@@ -2,6 +2,7 @@ import { stackServerApp } from "@/stack/server";
 import { redirect } from "next/navigation";
 import { DashboardSidebar, MobileSidebar } from "@/components/dashboard/sidebar";
 import { getOrCreateUser } from "@/db/actions/user.actions";
+import { checkPlanExpiry } from "@/db/actions/billing.actions";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,10 +31,13 @@ export default async function DashboardLayout({
 		displayName: stackUser.displayName,
 	});
 
+	// Check and handle plan expiry automatically
+	const activeUser = await checkPlanExpiry(dbUser.id) || dbUser;
+
 	const userData = {
-		displayName: dbUser.displayName,
-		primaryEmail: dbUser.email,
-		plan: dbUser.plan,
+		displayName: activeUser.displayName,
+		primaryEmail: activeUser.email,
+		plan: activeUser.plan,
 	};
 
 	return (
