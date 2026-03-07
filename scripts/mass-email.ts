@@ -22,8 +22,6 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>I’m reaching out because I noticed your agency handles a lot of custom landing pages. How are you currently managing form submissions and spam for clients without native backends?</p>
 			<p>I recently built FormGuard—an AI-native form backend that completely eliminates the need for CAPTCHAs (which ruin conversion rates) and handles everything serverlessly on Cloudflare's edge.</p>
 			<p>It takes 30 seconds to hook into a Webflow or Framer form. Would you be open to trying it out on your next client build for free?</p>
-			<p>We actually just launched on Product Hunt today! If you like the tool, an upvote would mean the world to me and help us reach more developers:</p>
-			<p>🚀 <a href="https://www.producthunt.com/posts/formguard"><strong>Support FormGuard on Product Hunt</strong></a></p>
 			<br/>
 			<p>Best,<br/>Shaswat</p>
 		`,
@@ -36,8 +34,6 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>Quick question: Are your devs still writing manual API routes and setting up Resend/Zod every time a client needs a simple "Contact Us" or "Waitlist" form?</p>
 			<p>I built <a href="https://formguard.strivio.world">FormGuard</a> to completely abstract that. You just point your frontend HTML form to our endpoint, and we handle the validation, spam-filtering (using AI, no CAPTCHA needed), and email routing natively on Cloudflare Workers.</p>
 			<p>It saves about 2 hours of boilerplate per project. Want a free Pro account to test it on your next build?</p>
-			<p>If you're into it, we are live on Product Hunt right now and trying to get into the Top 5. Would really appreciate an upvote from a fellow dev!</p>
-			<p>🔥 <a href="https://www.producthunt.com/posts/formguard"><strong>Upvote FormGuard on Product Hunt</strong></a></p>
 			<br/>
 			<p>Best,<br/>Shaswat</p>
 		`,
@@ -51,8 +47,6 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>I built <a href="https://formguard.strivio.world">FormGuard</a> to solve exactly this. It's a form endpoint that uses serverless AI to silently identify and drop spam <em>before</em> it hits your client's CRM—with zero friction for the end-user.</p>
 			<p>It integrates perfectly directly into Unbounce, Webflow, or custom HTML.</p>
 			<p>Can I send over a quick 2-minute video showing how it increases conversion rates vs traditional forms?</p>
-			<p>By the way, we launched on Product Hunt today to bring this to more agencies! Any support or feedback there would be incredible:</p>
-			<p>🏆 <a href="https://www.producthunt.com/posts/formguard"><strong>Check out FormGuard on Product Hunt</strong></a></p>
 			<br/>
 			<p>Best,<br/>Shaswat</p>
 		`,
@@ -64,8 +58,6 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>Following your build journey. Love what you're doing with ${lead.Company}.</p>
 			<p>I know you spin up a lot of landing pages for validation. I just launched an edge-native form backend called <a href="https://formguard.strivio.world">FormGuard</a>. It lets you capture emails/waitlists instantly from plain HTML/React—no backend code or database required.</p>
 			<p>Plus, no ugly CAPTCHAs. AI models silently drop the spam on the edge.</p>
-			<p>As a fellow indie hacker, we are live on Product Hunt today! I'm trying to climb the ranks and would instantly hook you up with a free lifetime pro endpoint in exchange for an upvote and some feedback on the page.</p>
-			<p>🐱 <a href="https://www.producthunt.com/posts/formguard"><strong>Upvote FormGuard on Product Hunt</strong></a></p>
 			<br/>
 			<p>Keep crushing it,<br/>Shaswat</p>
 		`,
@@ -77,8 +69,6 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>As a fellow dev, I know how annoying it is when a client wants a "simple" contact form on a static site, and you suddenly have to spin up a backend and configure NodeMailer/Resend just to send them an email.</p>
 			<p>I built a tool to skip all that boilerplate: <a href="https://formguard.strivio.world">FormGuard</a>.</p>
 			<p>You just drop our endpoint URL into your HTML form action. We handle the validation, filter the spam instantly using AI, and fire the email to the client. No backend code needed.</p>
-			<p>We're launching on Product Hunt right now! I'm giving out free Pro accounts to early adopters who help us hit the front page.</p>
-			<p>🚀 <a href="https://www.producthunt.com/posts/formguard"><strong>Upvote FormGuard on Product Hunt</strong></a></p>
 			<br/>
 			<p>Cheers,<br/>Shaswat</p>
 		`,

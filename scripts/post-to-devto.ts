@@ -40,9 +40,6 @@ Instead of forcing users to click traffic lights, FormGuard uses serverless AI t
 - **Database:** Drizzle ORM & Postgres
 - **Frontend:** Next.js App Router & Tailwind CSS
 
-If you're tired of writing backend code for frontend forms, I'd love for you to check it out. I just launched on Product Hunt today and would appreciate your feedback!
-
-🔗 [Check out FormGuard on Product Hunt](https://www.producthunt.com/posts/formguard)
 `,
     tags: ["webdev", "nextjs", "react", "cloudflare"],
     canonical_url: "https://formguard.strivio.world/blog", // Point back to your own domain for SEO

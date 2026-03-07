@@ -18,7 +18,6 @@ const resend = new Resend(process.env.RESEND_API_KEY ?? "re_XrdEfmyv_Q6tUfWXaExA
 
 const FROM    = "FormGuard <formguard@strivio.world>";
 const REPLY   = "sh20raj@gmail.com";
-const PH_URL  = "https://www.producthunt.com/posts/formguard"; // update with actual PH link
 const SITE    = "https://formguard.strivio.world";
 const FOUNDER = "founder@strivio.world";
 
@@ -36,7 +35,6 @@ function getSubjectAndBody(lead) {
 
   const callToAction = `
 → Try it free: ${SITE}
-→ Upvote us on Product Hunt: ${PH_URL}
 → Questions? Just reply or email ${FOUNDER}
   `.trim();
 
