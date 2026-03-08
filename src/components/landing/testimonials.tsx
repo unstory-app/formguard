@@ -16,7 +16,7 @@ const testimonials = [
 	{
 		name: "Marcus Bell",
 		role: "CTO, NexaHealth",
-		quote: "Edge processing means our global user base gets sub-100ms form responses. The Telegram and Notion integrations are the cherry on top.",
+		quote: "The plug-and-play backend meant we were up and running in minutes. The built-in Telegram and Notion integrations are the cherry on top.",
 		rating: 5,
 	},
 	{
@@ -29,9 +29,9 @@ const testimonials = [
 
 const stats = [
 	{ value: "50K+", label: "Submissions Processed" },
-	{ value: "<50ms", label: "Avg. Response Time" },
+	{ value: "4", label: "Powerful Integrations" },
 	{ value: "99.9%", label: "Spam Detection Rate" },
-	{ value: "300+", label: "Edge Locations" },
+	{ value: "8+", label: "Public Page Themes" },
 ];
 
 export default function Testimonials() {

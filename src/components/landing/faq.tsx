@@ -17,7 +17,7 @@ const faqs = [
 	},
 	{
 		q: "Is my data private?",
-		a: "Yes. Data is stored in isolated Cloudflare D1 buckets per workspace. We never share submission data.",
+		a: "Yes. Data is securely stored in isolated databases per workspace. We never share submission data.",
 	},
 ];
 

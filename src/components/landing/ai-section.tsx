@@ -17,7 +17,7 @@ const mockOutput = `> FormGuard AI Insight — Contact Form (March 2024)
 >   ✦ Follow up with enterprise inquiries (×6)
 >   ✦ Bug: Login flow reported broken on Safari
 >
-> Generated in 1.3s · Powered by edge AI`;
+> Generated instantly · Powered by AI Insight Engine`;
 
 export default function AiSection() {
 	return (
@@ -40,7 +40,7 @@ export default function AiSection() {
 								<span className="text-muted-foreground">They explain it.</span>
 							</h2>
 							<p className="text-muted-foreground mb-8 leading-relaxed text-sm">
-								Built for founders who read every submission. FormGuard batches your submissions and runs them through an logic-gate AI — returning a structured, actionable summary.
+								Built for founders who read every submission. FormGuard batches your submissions and runs them through our powerful Insight Engine — returning a structured, actionable summary.
 							</p>
 							<ul className="space-y-3 mb-10">
 								{bullets.map((b) => (

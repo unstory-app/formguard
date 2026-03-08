@@ -6,9 +6,9 @@ const steps = [
 	},
 	{
 		number: "02",
-		title: "Copy Your Endpoint",
+		title: "Connect or Host",
 		description:
-			"Get a unique edge URL. Drop it as your HTML form's action. No server required.",
+			"Get a unique endpoint URL for your HTML form, or instantly use our beautifully themed hosted pages.",
 	},
 	{
 		number: "03",
@@ -29,7 +29,7 @@ export default function HowItWorks() {
 					Up and running in minutes.
 				</h2>
 				<p className="text-muted-foreground font-mono text-sm mb-14">
-					No servers. No cron jobs. No headaches.
+					No code required. Complete flexibility.
 				</p>
 
 				<div className="grid md:grid-cols-3 gap-8">

@@ -49,7 +49,7 @@ export default async function LandingPage() {
 						See FormGuard in Action
 					</h2>
 					<p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-						Watch how easy it is to set up a serverless form backend in less than 2 minutes.
+						Watch how easy it is to set up a serverless form backend in less than 2 minutes(raw video).
 					</p>
 				</div>
 				<div className="w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl border border-border/50 bg-muted/20 relative aspect-video">
