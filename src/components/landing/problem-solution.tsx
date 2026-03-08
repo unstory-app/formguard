@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const problems = [
-	"Stop writing backend handlers.",
-	"Stop cleaning spam manually.",
-	"Stop guessing what users want.",
+	"Stop spending hours on custom integrations.",
+	"Stop dealing with relentless bot spam.",
+	"Stop managing complex form backends.",
 ];
 
 export default function ProblemSolution() {
@@ -37,14 +37,14 @@ export default function ProblemSolution() {
 							The Solution
 						</p>
 						<h2 className="text-3xl font-semibold text-foreground mb-8">
-							One endpoint.
+							Instant Setup.
 							<br />
-							Edge processing.
+							Reliable Protection.
 							<br />
-							<span className="text-muted-foreground">Instant insights.</span>
+							<span className="text-muted-foreground">Seamless Integrations.</span>
 						</h2>
 						<p className="text-muted-foreground mb-8 leading-relaxed text-sm">
-							FormGuard provides the infrastructure to capture, filter, and analyze submissions at the edge. No SDK, no complex backend handlers, just one endpoint.
+							FormGuard provides the infrastructure to capture, secure, and route submissions effortlessly. No SDKs, no complex backend code, just point your form to our endpoint and you're done.
 						</p>
 						<Link
 							href="/handler/sign-up"

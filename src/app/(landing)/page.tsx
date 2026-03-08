@@ -4,6 +4,7 @@ import HowItWorks from "@/components/landing/how-it-works";
 import AiSection from "@/components/landing/ai-section";
 import Features from "@/components/landing/features";
 import Testimonials from "@/components/landing/testimonials";
+import Comparison from "@/components/landing/comparison";
 import Pricing from "@/components/landing/pricing";
 import FAQ from "@/components/landing/faq";
 import FinalCTA from "@/components/landing/final-cta";
@@ -13,16 +14,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: "FormGuard — The AI-Powered Form Backend for Developers",
-	description: "Capture form submissions, block spam with AI, and generate insights — all at the edge. Google Sheets, Telegram, Notion integrations built-in. Free tier available.",
+	description: "Capture form submissions, instantly publish public pages, block spam effortlessly, and sync to your favorite tools. Free tier available.",
 	openGraph: {
-		title: "FormGuard — The AI-Powered Form Backend",
-		description: "Capture form submissions, block spam with AI, and get insights — at the edge.",
+		title: "FormGuard — The ultimate form backend for your websites",
+		description: "Capture submissions, instantly publish public pages, block spam without captchas.",
 		type: "website",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "FormGuard — The AI-Powered Form Backend",
-		description: "Form submissions, spam protection, AI insights — all at the edge.",
+		title: "FormGuard — The ultimate form backend",
+		description: "Form submissions, spam protection, and powerful integrations built in.",
 	},
 };
 
@@ -36,6 +37,7 @@ export default async function LandingPage() {
 			<HowItWorks />
 			<AiSection />
 			<Features />
+			<Comparison />
 			<Testimonials />
 			<Pricing />
 			<FAQ />

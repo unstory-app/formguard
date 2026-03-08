@@ -11,19 +11,19 @@ export default function Hero({ user }: HeroProps) {
 			<div className="mx-auto max-w-6xl px-6">
 				{/* Eyebrow */}
 				<p className="text-xs font-mono uppercase tracking-widest text-muted-foreground mb-6">
-					Edge-Powered · AI-Native · Cloudflare Workers
+					Setup in seconds · No code required
 				</p>
 
 				{/* Headline */}
 				<h1 className="text-5xl md:text-7xl font-black leading-[1.05] tracking-tight text-foreground max-w-4xl mb-6">
-					Stop building
+					The quickest backend
 					<br />
-					form backends.
+					for your HTML forms.
 				</h1>
 
 				{/* Sub-headline */}
 				<p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-					Edge-native form infrastructure built on Cloudflare. FormGuard captures submissions, blocks spam, and turns raw responses into AI insights.
+					Capture submissions, instantly publish public pages, block spam effortlessly, and sync data to your favorite tools. Stop writing fragile backend code.
 				</p>
 
 				{/* CTAs */}
@@ -64,7 +64,7 @@ export default function Hero({ user }: HeroProps) {
 				{/* Credibility strip */}
 				<div className="pt-8 border-t border-border/50">
 					<p className="text-sm text-muted-foreground font-mono">
-						Built on Cloudflare’s global edge network.
+						Trusted by creators to process thousands of submissions daily.
 					</p>
 				</div>
 			</div>

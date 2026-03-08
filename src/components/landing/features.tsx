@@ -1,10 +1,10 @@
 const features = [
-	{ icon: "⚡", title: "Edge Processing", benefit: "Submissions handled globally in <50ms. No cold starts." },
-	{ icon: "🤖", title: "AI Insight Engine", benefit: "Logic-gate analysis of submissions on demand." },
-	{ icon: "🛡️", title: "Spam Filtering", benefit: "Bot detection and rate limiting at the edge." },
-	{ icon: "🔗", title: "Webhook Automation", benefit: "Push data to Slack, Notion, or any external system." },
-	{ icon: "👥", title: "Team Workspaces", benefit: "Collaborate on forms and insights with your team." },
-	{ icon: "💳", title: "Dodo Payments", benefit: "Global subscriptions with secure webhook upgrades and tax compliance." },
+	{ icon: "⚡", title: "Plug & Play Backend", benefit: "Point your form action to our URL. Start receiving submissions instantly. No code needed." },
+	{ icon: "🎨", title: "Themeable Public Pages", benefit: "Get auto-generated public pages with beautiful themes out of the box: MS Word, Notion-like, Google Form, Minimal, or Typeform style. New community themes launched weekly." },
+	{ icon: "🛡️", title: "Smart Spam Protection", benefit: "AI-powered bot detection without annoying users with completely invisible captchas." },
+	{ icon: "🔗", title: "Powerful Integrations", benefit: "Sync submissions straight to Google Sheets, Notion, Telegram, or Discord." },
+	{ icon: "🌟", title: "AI Insight Engine", benefit: "Automatically analyze responses to understand what your users actually want." },
+	{ icon: "👥", title: "Team Workspaces", benefit: "Collaborate on forms, manage submissions, and review insights with your entire team." },
 ];
 
 export default function Features() {
