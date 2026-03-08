@@ -47,7 +47,7 @@ const comparisons = [
 
 export default function Comparison() {
 	return (
-		<section className="py-24 border-b border-border bg-background">
+		<section id="comparison" className="py-24 border-b border-border bg-background">
 			<div className="mx-auto max-w-5xl px-6">
 				<div className="text-center mb-16">
 					<p className="text-xs font-mono uppercase tracking-widest text-muted-foreground mb-4">
