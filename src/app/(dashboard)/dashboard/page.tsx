@@ -165,7 +165,7 @@ export default async function DashboardPage() {
 																/api/submit/{form.endpointId}
 															</p>
 															<CopyButton 
-																textToCopy={`${process.env.NEXT_PUBLIC_APP_URL || "https://formguard.strivio.world"}/api/submit/${form.endpointId}`} 
+																textToCopy={`${process.env.NEXT_PUBLIC_APP_URL || "https://formguard.unstory.app"}/api/submit/${form.endpointId}`} 
 																className="h-5 w-5 bg-background border border-border/40 hover:bg-muted opacity-0 group-hover:opacity-100 transition-opacity" 
 																iconClassName="w-2.5 h-2.5"
 																successMessage="API URL copied"

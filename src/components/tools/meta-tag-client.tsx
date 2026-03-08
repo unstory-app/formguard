@@ -31,8 +31,8 @@ export function MetaTagClient() {
 	const [form, setForm] = useState({
 		title: "FormGuard - Free AI Form Backend",
 		description: "Launch forms instantly, block spam with AI, and sync to Google Sheets without writing backend code.",
-		url: "https://formguard.strivio.world",
-		image: "https://formguard.strivio.world/og-image.png",
+		url: "https://formguard.unstory.app",
+		image: "https://formguard.unstory.app/og-image.png",
 		siteName: "FormGuard",
 		twitterHandle: "@strivio_inc"
 	});

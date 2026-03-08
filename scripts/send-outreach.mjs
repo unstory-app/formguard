@@ -18,7 +18,7 @@ const resend = new Resend(process.env.RESEND_API_KEY ?? "re_XrdEfmyv_Q6tUfWXaExA
 
 const FROM    = "FormGuard <formguard@strivio.world>";
 const REPLY   = "sh20raj@gmail.com";
-const SITE    = "https://formguard.strivio.world";
+const SITE    = "https://formguard.unstory.app";
 const FOUNDER = "founder@strivio.world";
 
 // ─── ADD YOUR LEADS HERE ──────────────────────────────────────────────────────

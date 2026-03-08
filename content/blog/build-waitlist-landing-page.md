@@ -77,7 +77,7 @@ Here's a complete, production-ready waitlist page using FormGuard:
 
 ### Step 1: Create a Waitlist Form on FormGuard
 
-1. Sign up at [formguard.strivio.world](https://formguard.strivio.world)
+1. Sign up at [formguard.unstory.app](https://formguard.unstory.app)
 2. Click **"New Form"** or use the **"Waitlist / Early Access"** template
 3. Copy your endpoint URL
 
@@ -182,7 +182,7 @@ Use this HTML — customize the copy and colors for your brand:
       </p>
 
       <form
-        action="https://formguard.strivio.world/api/submit/YOUR_ENDPOINT_ID"
+        action="https://formguard.unstory.app/api/submit/YOUR_ENDPOINT_ID"
         method="POST"
       >
         <input
@@ -276,4 +276,4 @@ The difference between a mediocre and exceptional waitlist page often comes down
 
 ---
 
-_Build your waitlist in 5 minutes. [Start with FormGuard's free waitlist template](https://formguard.strivio.world) — spam protection, Google Sheets, and instant notifications included._
+_Build your waitlist in 5 minutes. [Start with FormGuard's free waitlist template](https://formguard.unstory.app) — spam protection, Google Sheets, and instant notifications included._

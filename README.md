@@ -154,7 +154,7 @@ bun run deploy
 # How It Works
 
 1. **Create a Form**: Get a unique `endpointId` from the dashboard.
-2. **Post Data**: Send POST requests to `https://formguard.strivio.world/api/submit/:endpointId`.
+2. **Post Data**: Send POST requests to `https://formguard.unstory.app/api/submit/:endpointId`.
 3. **Analyze**: Use the AI Insight engine to summarize 100s of responses in seconds.
 
 ---

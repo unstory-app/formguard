@@ -1,6 +1,6 @@
 import { blogPosts, BlogPost } from "@/lib/blog";
 
-const baseUrl = "https://formguard.strivio.world";
+const baseUrl = "https://formguard.unstory.app";
 
 export function generateRssFeed(feedPath: string = "feed.xml") {
   const rssHeader = `<?xml version="1.0" encoding="UTF-8" ?>

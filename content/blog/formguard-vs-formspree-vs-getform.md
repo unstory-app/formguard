@@ -206,4 +206,4 @@ FormGuard delivers more value on the free tier than competitors do on their paid
 
 ---
 
-_Switch to FormGuard in 60 seconds. [Start free](https://formguard.strivio.world) — no credit card required._
+_Switch to FormGuard in 60 seconds. [Start free](https://formguard.unstory.app) — no credit card required._

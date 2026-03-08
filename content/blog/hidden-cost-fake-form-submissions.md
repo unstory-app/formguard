@@ -163,4 +163,4 @@ The hidden cost of fake form submissions is real, measurable, and completely pre
 
 ---
 
-_Stop burning money on spam. [Try FormGuard free](https://formguard.strivio.world) — AI-powered form protection that pays for itself on day one._
+_Stop burning money on spam. [Try FormGuard free](https://formguard.unstory.app) — AI-powered form protection that pays for itself on day one._

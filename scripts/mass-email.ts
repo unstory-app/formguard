@@ -32,7 +32,7 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>Hey ${lead.FirstName},</p>
 			<p>Really impressed by ${lead.Company}'s stack—I see you guys are leaning heavily into modern React/Next.js.</p>
 			<p>Quick question: Are your devs still writing manual API routes and setting up Resend/Zod every time a client needs a simple "Contact Us" or "Waitlist" form?</p>
-			<p>I built <a href="https://formguard.strivio.world">FormGuard</a> to completely abstract that. You just point your frontend HTML form to our endpoint, and we handle the validation, spam-filtering (using AI, no CAPTCHA needed), and email routing natively on Cloudflare Workers.</p>
+			<p>I built <a href="https://formguard.unstory.app">FormGuard</a> to completely abstract that. You just point your frontend HTML form to our endpoint, and we handle the validation, spam-filtering (using AI, no CAPTCHA needed), and email routing natively on Cloudflare Workers.</p>
 			<p>It saves about 2 hours of boilerplate per project. Want a free Pro account to test it on your next build?</p>
 			<br/>
 			<p>Best,<br/>Shaswat</p>
@@ -44,7 +44,7 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 			<p>Hi ${lead.FirstName},</p>
 			<p>I know as a growth agency, your primary metric for clients is qualified leads.</p>
 			<p>However, I've noticed a lot of agencies are forced to use Google reCAPTCHA to stop spam, which data shows decreases form conversion rates by up to 30%.</p>
-			<p>I built <a href="https://formguard.strivio.world">FormGuard</a> to solve exactly this. It's a form endpoint that uses serverless AI to silently identify and drop spam <em>before</em> it hits your client's CRM—with zero friction for the end-user.</p>
+			<p>I built <a href="https://formguard.unstory.app">FormGuard</a> to solve exactly this. It's a form endpoint that uses serverless AI to silently identify and drop spam <em>before</em> it hits your client's CRM—with zero friction for the end-user.</p>
 			<p>It integrates perfectly directly into Unbounce, Webflow, or custom HTML.</p>
 			<p>Can I send over a quick 2-minute video showing how it increases conversion rates vs traditional forms?</p>
 			<br/>
@@ -56,7 +56,7 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 		html: `
 			<p>Yo ${lead.FirstName},</p>
 			<p>Following your build journey. Love what you're doing with ${lead.Company}.</p>
-			<p>I know you spin up a lot of landing pages for validation. I just launched an edge-native form backend called <a href="https://formguard.strivio.world">FormGuard</a>. It lets you capture emails/waitlists instantly from plain HTML/React—no backend code or database required.</p>
+			<p>I know you spin up a lot of landing pages for validation. I just launched an edge-native form backend called <a href="https://formguard.unstory.app">FormGuard</a>. It lets you capture emails/waitlists instantly from plain HTML/React—no backend code or database required.</p>
 			<p>Plus, no ugly CAPTCHAs. AI models silently drop the spam on the edge.</p>
 			<br/>
 			<p>Keep crushing it,<br/>Shaswat</p>
@@ -67,7 +67,7 @@ const TEMPLATES: Record<string, (lead: any) => { subject: string; html: string }
 		html: `
 			<p>Hey ${lead.FirstName},</p>
 			<p>As a fellow dev, I know how annoying it is when a client wants a "simple" contact form on a static site, and you suddenly have to spin up a backend and configure NodeMailer/Resend just to send them an email.</p>
-			<p>I built a tool to skip all that boilerplate: <a href="https://formguard.strivio.world">FormGuard</a>.</p>
+			<p>I built a tool to skip all that boilerplate: <a href="https://formguard.unstory.app">FormGuard</a>.</p>
 			<p>You just drop our endpoint URL into your HTML form action. We handle the validation, filter the spam instantly using AI, and fire the email to the client. No backend code needed.</p>
 			<br/>
 			<p>Cheers,<br/>Shaswat</p>

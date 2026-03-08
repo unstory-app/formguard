@@ -25,7 +25,7 @@ FormGuard support for MCP allows you to connect your account directly to AI agen
 
 ### 1. Generate an API Key
 
-Visit the [MCP Dashboard](https://formguard.strivio.world/dashboard/mcp) to create a key.
+Visit the [MCP Dashboard](https://formguard.unstory.app/dashboard/mcp) to create a key.
 
 ### 2. Configure Your AI Agent
 
@@ -33,7 +33,7 @@ Visit the [MCP Dashboard](https://formguard.strivio.world/dashboard/mcp) to crea
 
 1. Go to **Settings** > **MCP**.
 2. Add a new **SSE** server.
-3. **URL**: `https://formguard.strivio.world/api/mcp`
+3. **URL**: `https://formguard.unstory.app/api/mcp`
 4. **Header**: `x-api-key: YOUR_KEY`
 
 ## Example Commands for AI

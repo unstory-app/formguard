@@ -52,7 +52,7 @@ export function McpClient({ initialKeys, userId }: McpClientProps) {
 	const [creating, setCreating] = useState(false);
 	const [copied, setCopied] = useState<string | null>(null);
 
-	const origin = typeof window !== "undefined" ? window.location.origin : "https://formguard.strivio.world";
+	const origin = typeof window !== "undefined" ? window.location.origin : "https://formguard.unstory.app";
 	const mcpEndpoint = `${origin}/api/mcp`;
 
 	const handleCreateKey = async () => {

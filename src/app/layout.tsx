@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://formguard.strivio.world"),
+	metadataBase: new URL("https://formguard.unstory.app"),
 	title: {
 		default: "FormGuard — AI Form Backend for Builders",
 		template: "%s | FormGuard",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 		"form builder API",
 		"developer tools",
 	],
-	authors: [{ name: "FormGuard Team", url: "https://formguard.strivio.world" }],
+	authors: [{ name: "FormGuard Team", url: "https://formguard.unstory.app" }],
 	creator: "FormGuard",
 	alternates: {
 		canonical: "/",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://formguard.strivio.world",
+		url: "https://formguard.unstory.app",
 		title: "FormGuard — AI Form Backend for Builders",
 		description: "Capture submissions, block spam, and turn raw responses into AI insights — powered by Cloudflare edge infrastructure.",
 		siteName: "FormGuard",
 		images: [
 			{
-				url: "/og-image-1.png",
+				url: "/og-image.png",
 				width: 1200,
 				height: 630,
 				alt: "FormGuard - AI Form Backend Overview",
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "FormGuard — AI Form Backend for Builders",
 		description: "Capture submissions, block spam, and turn raw responses into AI insights.",
-		images: ["/og-image-1.png"],
-		creator: "@formguard",
+		images: ["/og-image.png"],
+		creator: "@sh20raj",
 	},
 	icons: {
 		icon: [
@@ -109,12 +109,12 @@ export default function RootLayout({
 							"@context": "https://schema.org",
 							"@type": "Organization",
 							"name": "FormGuard",
-							"url": "https://formguard.strivio.world",
-							"logo": "https://formguard.strivio.world/favicon.svg",
+							"url": "https://formguard.unstory.app",
+							"logo": "https://formguard.unstory.app/favicon.svg",
 							"description": "Stop building form backends. FormGuard captures submissions, blocks spam, and turns raw responses into AI insights — powered by Cloudflare edge infrastructure.",
 							"sameAs": [
-								"https://twitter.com/formguard",
-								"https://github.com/formguard"
+								"https://twitter.com/sh20raj",
+								"https://github.com/unstory-app"
 							]
 						}),
 					}}

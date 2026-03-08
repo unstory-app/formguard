@@ -80,7 +80,7 @@ export function FormGeneratorClient() {
 
 		return `<!-- 
   Install Tailwind CSS: https://tailwindcss.com/docs/installation
-  Powered by FormGuard: https://formguard.strivio.world
+  Powered by FormGuard: https://formguard.unstory.app
 -->
 <form action="YOUR_FORMGUARD_ENDPOINT_URL" method="POST" class="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-sm border border-gray-100 space-y-5 font-sans">
   <div class="mb-6">

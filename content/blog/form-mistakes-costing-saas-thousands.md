@@ -27,7 +27,7 @@ After analyzing thousands of form submissions across hundreds of SaaS products, 
 Ask for only what you need to start a conversation:
 
 ```html
-<form action="https://formguard.strivio.world/api/submit/YOUR_ID" method="POST">
+<form action="https://formguard.unstory.app/api/submit/YOUR_ID" method="POST">
   <input type="text" name="name" placeholder="Your name" required />
   <input type="email" name="email" placeholder="Work email" required />
   <button type="submit">Get Started</button>
@@ -54,7 +54,7 @@ Use invisible spam protection. Cloudflare Turnstile provides 99%+ spam detection
 
 ```html
 <!-- No CAPTCHA needed. FormGuard handles spam server-side. -->
-<form action="https://formguard.strivio.world/api/submit/YOUR_ID" method="POST">
+<form action="https://formguard.unstory.app/api/submit/YOUR_ID" method="POST">
   <input type="text" name="name" required />
   <input type="email" name="email" required />
   <textarea name="message"></textarea>
@@ -132,7 +132,7 @@ If you're building custom forms, follow these rules:
 ```html
 <!-- Mobile-optimized form -->
 <form
-  action="https://formguard.strivio.world/api/submit/YOUR_ID"
+  action="https://formguard.unstory.app/api/submit/YOUR_ID"
   method="POST"
   style="max-width: 480px; padding: 1rem;"
 >
@@ -212,4 +212,4 @@ Total setup time: 60 seconds. Annual revenue recovered: six figures.
 
 ---
 
-_Stop leaking leads. [Start with FormGuard free](https://formguard.strivio.world) — fix all five mistakes today._
+_Stop leaking leads. [Start with FormGuard free](https://formguard.unstory.app) — fix all five mistakes today._

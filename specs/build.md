@@ -258,7 +258,7 @@ Add:
 Example snippet UI:
 
 ```id="6xtxw7"
-<form action="https://formguard.strivio.world/api/submit/xxx" method="POST">
+<form action="https://formguard.unstory.app/api/submit/xxx" method="POST">
 ```
 
 Deliverable:

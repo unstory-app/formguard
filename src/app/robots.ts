@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/dashboard/", "/api/", "/handler/"],
     },
-    sitemap: "https://formguard.strivio.world/sitemap.xml",
+    sitemap: "https://formguard.unstory.app/sitemap.xml",
   };
 }

@@ -21,11 +21,11 @@ It took hours for what should have been a 5-minute task. Worse, when I started g
 ### The Cloudflare Workers Pivot
 I realized that form handling doesn't belong in my edge computing framework—it belongs on the absolute edge network itself.
 
-I built [FormGuard](https://formguard.strivio.world), an AI-native form backend that runs entirely on Cloudflare Workers. 
+I built [FormGuard](https://formguard.unstory.app), an AI-native form backend that runs entirely on Cloudflare Workers. 
 
 Here is how you use it:
 \`\`\`html
-<form action="https://api.formguard.strivio.world/submit/YOUR_ID" method="POST">
+<form action="https://api.formguard.unstory.app/submit/YOUR_ID" method="POST">
   <input name="email" type="email" required />
   <button type="submit">Join</button>
 </form>
@@ -42,7 +42,7 @@ Instead of forcing users to click traffic lights, FormGuard uses serverless AI t
 
 `,
     tags: ["webdev", "nextjs", "react", "cloudflare"],
-    canonical_url: "https://formguard.strivio.world/blog", // Point back to your own domain for SEO
+    canonical_url: "https://formguard.unstory.app/blog", // Point back to your own domain for SEO
   },
 };
 

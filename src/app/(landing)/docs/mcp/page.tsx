@@ -192,7 +192,7 @@ export default function McpDocsPage() {
   "mcpServers": {
     "formguard": {
       "type": "sse",
-      "url": "https://formguard.strivio.world/api/mcp",
+      "url": "https://formguard.unstory.app/api/mcp",
       "headers": {
         "x-api-key": "YOUR_FG_KEY_HERE"
       }
@@ -212,7 +212,7 @@ export default function McpDocsPage() {
   "command": "npx",
   "args": [
     "-y", "mcp-remote@latest",
-    "https://formguard.strivio.world/api/mcp",
+    "https://formguard.unstory.app/api/mcp",
     "--header", "x-api-key:YOUR_KEY"
   ]
 }`}
@@ -237,7 +237,7 @@ export default function McpDocsPage() {
 							<div className="group">
 								<label className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest block mb-2">Base URL</label>
 								<div className="flex items-center gap-2 p-3 bg-background border border-border/40 rounded-xl group-hover:border-primary/20 transition-colors">
-									<code className="text-xs font-mono truncate text-foreground/70">https://formguard.strivio.world/api/mcp</code>
+									<code className="text-xs font-mono truncate text-foreground/70">https://formguard.unstory.app/api/mcp</code>
 									<Copy className="w-3.5 h-3.5 text-muted-foreground/30 hover:text-primary cursor-pointer shrink-0" />
 								</div>
 							</div>

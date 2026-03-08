@@ -1,5 +1,5 @@
 [carbon]
-domain: formguard.strivio.world
+domain: formguard.unstory.app
 hosted-by: Cloudflare
 green-hosting: true
 verified: true

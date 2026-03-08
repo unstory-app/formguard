@@ -78,7 +78,7 @@ const sections = [
 			{ name: "get_recent_submissions", desc: "Retrieve latest entries for context." },
 			{ name: "get_ai_insights", desc: "Access AI-generated sentiment analysis." }
 		],
-		usage: "Endpoint: https://formguard.strivio.world/api/mcp | Header: x-api-key",
+		usage: "Endpoint: https://formguard.unstory.app/api/mcp | Header: x-api-key",
 		learnMore: "/docs/mcp"
 	}
 ];

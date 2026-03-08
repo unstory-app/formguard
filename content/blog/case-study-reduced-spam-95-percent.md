@@ -201,4 +201,4 @@ Set up takes 60 seconds. No credit card required.
 
 ---
 
-_Ready to eliminate form spam and boost conversions? [Try FormGuard free](https://formguard.strivio.world) — the same protection NexaFlow uses to block 95% of spam with zero user friction._
+_Ready to eliminate form spam and boost conversions? [Try FormGuard free](https://formguard.unstory.app) — the same protection NexaFlow uses to block 95% of spam with zero user friction._

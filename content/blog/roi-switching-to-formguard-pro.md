@@ -164,4 +164,4 @@ For any business generating revenue from web forms, the answer is obviously yes.
 
 ---
 
-_Upgrade to FormGuard Pro for $9/month. [Start here](https://formguard.strivio.world) — 10,000 submissions, AI insights, and zero spam._
+_Upgrade to FormGuard Pro for $9/month. [Start here](https://formguard.unstory.app) — 10,000 submissions, AI insights, and zero spam._

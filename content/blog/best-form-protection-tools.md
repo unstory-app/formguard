@@ -230,7 +230,7 @@ Avoid reCAPTCHA v2 for any conversion-critical form. The UX cost is no longer ju
 
 ```html
 <!-- That's it. FormGuard handles spam protection server-side. -->
-<form action="https://formguard.strivio.world/api/submit/YOUR_ID" method="POST">
+<form action="https://formguard.unstory.app/api/submit/YOUR_ID" method="POST">
   <input type="text" name="name" required />
   <input type="email" name="email" required />
   <textarea name="message" required></textarea>
@@ -242,4 +242,4 @@ Enable Turnstile in your FormGuard dashboard. AI content analysis runs automatic
 
 ---
 
-_Want the most effective form protection with zero setup? [Try FormGuard free](https://formguard.strivio.world) — multi-layer AI spam protection that works out of the box._
+_Want the most effective form protection with zero setup? [Try FormGuard free](https://formguard.unstory.app) — multi-layer AI spam protection that works out of the box._

@@ -267,4 +267,4 @@ Your users will thank you. Your conversion rates will thank you even more.
 
 ---
 
-_Ready to stop spam without CAPTCHAs? [Try FormGuard free](https://formguard.strivio.world) — AI-powered form protection that's invisible to your users._
+_Ready to stop spam without CAPTCHAs? [Try FormGuard free](https://formguard.unstory.app) — AI-powered form protection that's invisible to your users._

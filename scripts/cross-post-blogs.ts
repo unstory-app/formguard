@@ -11,7 +11,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
-const BASE_URL = "https://formguard.strivio.world/blog";
+const BASE_URL = "https://formguard.unstory.app/blog";
 
 // Dev.to config
 const DEVTO_API_URL = "https://dev.to/api/articles";

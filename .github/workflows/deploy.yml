@@ -36,4 +36,4 @@ jobs:
           DODO_PAYMENTS_ENVIRONMENT: ${{ secrets.DODO_PAYMENTS_ENVIRONMENT }}
           
           # Ensure NEXT_PUBLIC variables are available at build time
-          NEXT_PUBLIC_BASE_URL: https://formguard.strivio.world
+          NEXT_PUBLIC_BASE_URL: https://formguard.unstory.app

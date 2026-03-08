@@ -3,7 +3,7 @@ import { blogPosts } from "@/lib/blog";
 import { mdPosts } from "@/lib/blog-md-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-	const baseUrl = "https://formguard.strivio.world";
+	const baseUrl = "https://formguard.unstory.app";
 	const lastModified = new Date();
 
 	const staticRoutes = [

@@ -12,14 +12,14 @@ FormGuard is a complete backend solution for your HTML forms. It handles submiss
 ## How to Use
 
 ### 1. Create a Form
-Log in to the [FormGuard Dashboard](https://formguard.strivio.world/dashboard) and create a new form. You will receive a unique **Endpoint ID**.
+Log in to the [FormGuard Dashboard](https://formguard.unstory.app/dashboard) and create a new form. You will receive a unique **Endpoint ID**.
 
 ### 2. Connect Your Form
 Point your HTML form's `action` attribute to your unique FormGuard endpoint.
 
 #### HTML Example
 ```html
-<form action="https://formguard.strivio.world/api/submit/{your-endpoint-id}" method="POST">
+<form action="https://formguard.unstory.app/api/submit/{your-endpoint-id}" method="POST">
   <input name="email" type="email" placeholder="email@example.com" required />
   <textarea name="message" placeholder="Your message..."></textarea>
   <button type="submit">Send</button>
@@ -30,7 +30,7 @@ Point your HTML form's `action` attribute to your unique FormGuard endpoint.
 You can also submit data via JavaScript/AJAX using JSON.
 
 ```javascript
-await fetch("https://formguard.strivio.world/api/submit/{your-endpoint-id}", {
+await fetch("https://formguard.unstory.app/api/submit/{your-endpoint-id}", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({

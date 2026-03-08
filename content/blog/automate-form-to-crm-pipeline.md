@@ -204,4 +204,4 @@ Most importantly: **it works while you sleep.** A prospect in any timezone, at a
 
 ---
 
-_Build your automated pipeline in 10 minutes. [Start with FormGuard](https://formguard.strivio.world) — Google Sheets, Telegram, Notion, and webhooks included free._
+_Build your automated pipeline in 10 minutes. [Start with FormGuard](https://formguard.unstory.app) — Google Sheets, Telegram, Notion, and webhooks included free._

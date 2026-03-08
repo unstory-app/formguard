@@ -90,7 +90,7 @@ export default function NewFormPage() {
 								</div>
 								<div className="bg-background/80 border border-border/40 rounded-lg px-3 py-2.5">
 									<p className="text-[11px] font-mono text-muted-foreground break-all leading-relaxed">
-										https://formguard.strivio.world/api/submit/
+										https://formguard.unstory.app/api/submit/
 										<span className="text-foreground font-semibold bg-primary/10 px-1 rounded animate-pulse">
 											[unique-id]
 										</span>

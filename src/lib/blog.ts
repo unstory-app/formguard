@@ -41,7 +41,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>3. Developer-First Architecture</h3>
       <p>FormGuard integrates with your existing stack in under 60 seconds. Point your form's action URL at your unique FormGuard endpoint, add a single header for authentication, and you're done. No SDK required, no vendor lock-in, no complex configuration.</p>
-      <pre><code>&lt;form action="https://formguard.strivio.world/api/submit/YOUR_ENDPOINT" method="POST"&gt;
+      <pre><code>&lt;form action="https://formguard.unstory.app/api/submit/YOUR_ENDPOINT" method="POST"&gt;
   &lt;input type="text" name="name" required /&gt;
   &lt;input type="email" name="email" required /&gt;
   &lt;textarea name="message"&gt;&lt;/textarea&gt;
